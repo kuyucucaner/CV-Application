@@ -1,0 +1,43 @@
+.education-container{
+  width: 90%;
+  background-color: #6C5F5B;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: 4px inset #79716e;
+  margin-bottom: 100px;    
+}
+.education-title {
+    text-align: start;
+    margin-left: 20px;
+  }
+  .education-icon {
+    margin-right: 10px;
+    color :#ED7D31;
+    font-size: 30px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+
+  }
+  .education-input {
+    width: 70%;
+    padding: 10px;
+    color:black;
+    background-color: #F6F1EE !important;;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    transition: background-color 0.3s ease; 
+  }
+  .education-input:hover ,.education-input:focus {
+    background-color: #a8a8a8 !important; /* Change the background color on hover */
+}
+.education-new-button{
+  margin-bottom: 20px;
+  background-color: #ED7D31;
+  border-color: 1px solid#a8a8a8;
+}

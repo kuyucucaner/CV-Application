@@ -1,0 +1,269 @@
+.cv-right-side {
+  background-color: #4F4A45 ;
+  color: black;
+  height: 100%;
+  width: 55%;
+  position: fixed;
+  right: 0;
+  top: 78.3px;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.cv-container {
+  padding: 15px;
+  background-color: #867c78;
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px black;
+  border: 4px inset #79716e;
+}
+/* personal data css  */
+.cv-personal-data {
+  border-bottom: 2px solid black;
+  display: flex;
+}
+.right{
+  margin-right: 100px;
+  margin-left: auto;
+
+  margin-top:50px;
+}
+.left {
+  flex: 1;
+}
+.cv-first-name {
+  font-size: 50px;
+  color:#ED7D31;
+  text-shadow: 3px 3px 3px #e66916;
+  font-weight: bold;
+  text-align: start;
+  margin-left: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.cv-last-name {
+  font-size: 50px;
+  color:#ED7D31;
+  text-shadow: 3px 3px 3px #e66916;
+  font-weight: bold;
+  text-align: start;
+  margin-left: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.cv-profession {
+  font-size: 35px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #4F4A45;
+  text-shadow: 1px 1px 1px #F6F1EE;
+  color :#F6F1EE;
+  width:100%;
+  max-width: 800px;
+  border-radius: 20px;
+}
+.placer{
+  visibility: hidden;
+}
+.cv-description {
+  font-size: 17px;
+  color :#F6F1EE;
+  text-align: start;
+  width: 107%;
+  margin-left:55px;
+}
+.cv-image{
+  width: 150px;
+  height: 150px;   
+  margin-left:300px;
+}
+
+/*experience css*/
+.cv-experience-title {
+  font-size: 50px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  float: right;
+  color :#F6F1EE;
+  text-shadow: 1px 1px 1px #F6F1EE;
+}
+.cv-experience {
+  margin: 0 auto; /* This will center the div horizontally */
+}
+
+
+.cv-position {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #F6F1EE;
+}
+
+.date-separator {
+  margin: 0 5px; /* İhtiyaca göre ayarlayın */
+  color: #777; /* Çizgi rengi */
+}
+
+.cv-job-info {
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+}
+
+.cv-company {
+  font-size: 15px;
+    text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color :#F6F1EE;
+}
+
+.cv-start-date,
+.cv-end-date {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color :#F6F1EE;
+  text-align: center;
+
+}
+
+.cv-occupation {
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  max-height: 200px; /* Set a maximum height to limit vertical growth */
+  color: #F6F1EE;
+  overflow-x: hidden; /* Hide horizontal overflow */
+  word-wrap: break-word; /* Wrap long words to the next line */
+  overflow-wrap: break-word; /* Additional property for better word breaking */
+}
+
+
+
+
+/*education css*/
+.cv-education-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color :#F6F1EE;
+}
+
+.cv-school {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color :#F6F1EE;
+}
+
+.cv-degree {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 60px;
+  width: 70%;
+  color :#F6F1EE;
+
+}
+
+/*education-skills flex*/
+.cv-education-skills {
+  display: flex;
+  border-bottom: 1px solid black;
+  color :#F6F1EE;
+  justify-content: space-between;
+
+}
+
+/*skills css*/
+.cv-skills-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  color :#F6F1EE;
+  text-shadow: 1px 1px 1px #F6F1EE;}
+
+.cv-skills {
+  margin-left: 80px;
+  text-align: right;
+  
+}
+
+.cv-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-skills-list-item {
+  margin-bottom: 5px;
+  flex: 1 0 calc(33.33% - 10px);
+  box-sizing: border-box;
+  text-align: left;
+  color :#F6F1EE;
+
+}
+/*contacts*/
+.cv-contacts-title{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color :#F6F1EE;
+} 
+.cv-contacts-address{
+  font-size: 25px;
+  text-align: left;
+  margin-left:100px;
+  color :#F6F1EE;
+
+}
+.cv-contacts-email{
+  font-size: 25px;
+  text-align: left;
+  margin-left: 100px;
+  color :#F6F1EE;
+
+}
+.cv-contacts-portfolio{
+  font-size: 25px;
+  text-align: right;
+  margin-right:100px;
+  color :#F6F1EE;
+
+}
+.cv-contacts-phone{
+  font-size: 25px;
+  text-align:right;
+  margin-right:100px;
+  color :#F6F1EE;
+
+
+}
+.cv-first-line , .cv-second-line{
+  display: flex;
+  justify-content: space-between;
+}
