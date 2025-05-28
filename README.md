@@ -39,6 +39,7 @@
 ###  Home Page
 <img src="./assets/home.png" width="600"/>
 
+<img src="./assets/home2.png" width="600"/>
 
 ---
 ## 📦 Getting Started
