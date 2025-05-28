@@ -1,8 +1,52 @@
-# React + Vite
+# 📄 CV Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CV Application** is a user-friendly web app that allows users to build and preview their CVs in real-time. As users fill in form fields with their personal, educational, and professional information, the CV is generated live on the screen. It’s a handy tool for quickly creating a resume with a clean and structured layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Purpose
+
+- 👤 Input personal, educational, and work experience details
+- 🧾 See a live preview of your CV as you type
+- 🖨️ Prepare your resume for export or printing
+
+---
+
+## 🚀 Features
+
+- 🧩 **Modular Form Sections**
+  - Separate fields for personal info, education, and experience
+- 🔄 **Live Preview**
+  - Updates the CV view instantly as you type
+- 🎨 **Clean UI**
+  - Minimalistic and readable layout for CV display
+- 🧠 **React State Management**
+  - Handles dynamic form data smoothly
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer         | Technologies         |
+|---------------|----------------------|
+| Frontend      | React, JSX, Vite     |
+| Styling       | CSS                  |
+| Tools         | Git, GitHub, VS Code |
+
+---
+
+
+###  Home Page
+<img src="./assets/home.png" width="600"/>
+
+
+---
+## 📦 Getting Started
+
+Clone the repository and run the app locally:
+
+```bash
+git clone https://github.com/kuyucucaner/CV-Application.git
+cd CV-Application
+npm install
+npm run dev
