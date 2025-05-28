@@ -1,6 +1,6 @@
 # 📄 CV Application
 
-**CV Application** is a user-friendly web app that allows users to build and preview their CVs in real-time. As users fill in form fields with their personal, educational, and professional information, the CV is generated live on the screen. It’s a handy tool for quickly creating a resume with a clean and structured layout.
+**CV Application** is a user-friendly web app that allows users to build and preview their CVs in real-time. As users fill in form fields with their personal, educational, and professional information, the CV is generated live on the screen. It’s a handy tool for quickly creating a resume with a clean and structured layout. 
 
 ---
 
